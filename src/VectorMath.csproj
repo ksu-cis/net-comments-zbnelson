@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>C:\Users\zbnelson\Desktop\net-comments-zbnelson\src\VectorMath.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VectorMath">
+      <HintPath>bin\Debug\netstandard2.0\VectorMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
